@@ -37,3 +37,12 @@ echo "export PATH=\"$HOME/anaconda2/bin:\$PATH\"" >> ~/.bashrc
 export PATH="$HOME/anaconda2/bin:$PATH"
 pip install tensorflow-gpu
 source ~/.bashrc
+
+mkdir PycharmProjects
+cd PycharmProjects
+mkdir training
+mkdir training/cp
+wget http://www.cs.stanford.edu/people/ashesh/h3.6m.zip
+git clone https://github.com/Seleucia/jejumotion
+
+
