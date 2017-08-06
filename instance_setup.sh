@@ -37,7 +37,8 @@ echo "export PATH=\"$HOME/anaconda2/bin:\$PATH\"" >> ~/.bashrc
 export PATH="$HOME/anaconda2/bin:$PATH"
 pip install tensorflow-gpu
 source ~/.bashrc
-
+cd ..
+cd ..
 mkdir PycharmProjects
 cd PycharmProjects
 mkdir training
