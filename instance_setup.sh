@@ -44,5 +44,7 @@ cd PycharmProjects
 mkdir training
 mkdir training/cp
 wget http://www.cs.stanford.edu/people/ashesh/h3.6m.zip
+unzip h3.6m.zip
+rm h3.6m.zip
 git clone https://github.com/Seleucia/jejumotion
 chmod -R 777 PycharmProjects
