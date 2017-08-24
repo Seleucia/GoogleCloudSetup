@@ -18,7 +18,7 @@ sudo modprobe nvidia
 nvidia-smi
 
 # CUDNN
-wget "http://files.fast.ai/files/cudnn.tgz" -O "cudnn.tgz"
+wget "https://www.dropbox.com/s/6bicqaxhom0n7yw/cudnn-8.0-linux-x64-v6.0.tgz?dl=0" -O "cudnn.tgz"
 tar -zxf cudnn.tgz
 cd cuda
 sudo cp lib64/* /usr/local/cuda/lib64/
@@ -49,3 +49,4 @@ rm h3.6m.zip
 git clone https://github.com/Seleucia/jejumotion
 cd ..
 chmod -R 777 PycharmProjects
+source ~/.bashrc
